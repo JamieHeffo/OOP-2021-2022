@@ -71,6 +71,11 @@ public class Main
         processing.core.PApplet.runSketch( a, new YASC());
     }
 
+    public static void OldStarMap()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new OldStarMap());
+    }
     public void cat()
     {
         System.out.println("Hello world");
@@ -96,10 +101,7 @@ public class Main
     }
     public static void main(String[] args)
     {
-        YASC();
-
-        // Tara Misty
-        // Tara Tara
+        OldStarMap();
         
     }
 }
